@@ -500,9 +500,25 @@ main {
   color: var(--muted);
   border-top: 1px solid var(--border);
   background: rgba(11, 13, 16, 0.9);
+  position: relative;
   display: flex;
   align-items: center;
   gap: 14px;
+}
+
+.footer__row {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.footer__dayz {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 32px;
+  width: auto;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.5));
 }
 
 .glitch {
